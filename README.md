@@ -8,13 +8,13 @@ Introduction:
 8-puzzle problem has 9 cells (3*3) including one blank cell which is marked by 0. So there are 8 cells marked by 1 to 8 in the 3*3 boards. The goal of this problem is to convert the initial board to the solution state where we can have only certain moves from each placement. To be exact, we can move the blank cell either to the left or right or up or down if it is valid. The max depth of this problem is 31 and the branching factor is 4.
 
 Initial state:
-1 2 3
-5 6 4
-0 8 7
+1 2 3 \\
+5 6 4 \\
+0 8 7 \\
 Goal state:
-1 2 3
-4 5 6
-7 8 0
+1 2 3 \\
+4 5 6 \\
+7 8 0 \\
 
 Algorithms used to solve this problem:
 Uniform Cost Search:
