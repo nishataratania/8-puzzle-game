@@ -11,7 +11,7 @@ Initial state: <br>
 1 2 3 <br>
 5 6 4 <br>
 0 8 7 <br>
-Goal state:
+Goal state: <br>
 1 2 3 <br>
 4 5 6 <br>
 7 8 0 <br>
@@ -32,7 +32,7 @@ Initial state: <br>
 1 2 3 <br>
 5 6 4 <br>
 0 7 8 <br>
-Goal state:
+Goal state: <br>
 1 2 3 <br>
 4 5 6 <br>
 7 8 0 <br>
@@ -47,7 +47,7 @@ Current state: <br>
 1 2 3 <br>
 4 0 6 <br>
 7 8 5 <br>
-Goal state:
+Goal state: <br>
 1 2 3 <br>
 4 5 6 <br>
 7 8 0 <br>
