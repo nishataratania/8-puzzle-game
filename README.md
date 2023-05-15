@@ -7,7 +7,7 @@ Introduction:
 8 puzzle problem:
 8-puzzle problem has 9 cells (3*3) including one blank cell which is marked by 0. So there are 8 cells marked by 1 to 8 in the 3*3 boards. The goal of this problem is to convert the initial board to the solution state where we can have only certain moves from each placement. To be exact, we can move the blank cell either to the left or right or up or down if it is valid. The max depth of this problem is 31 and the branching factor is 4.
 
-Initial state:
+Initial state: <br>
 1 2 3 <br>
 5 6 4 <br>
 0 8 7 <br>
@@ -28,7 +28,7 @@ A* search with Misplaced Tiles Heuristic:
 A* search expands the nodes with the minimum f(n) where f(n) = g(n) + h(n), g(n) is the original cost from initial node to that node  and h(n) is the heuristic cost. g(n) is calculated as the level of the expanding node. But for h(n) we can use any good admissible heuristic. Here we will use misplaced tiles heuristic. An example is given below:
 
 
-Initial state:
+Initial state: <br>
 1 2 3 <br>
 5 6 4 <br>
 0 7 8 <br>
@@ -43,7 +43,7 @@ A* search with Manhattan Distance Heuristic:
 This search also works just like the above but with a different heuristics, Manhattan Distance Heuristic.
 Here h(n) = coordinate difference of each tile from current state to goal state.
 
-Current state:
+Current state: <br>
 1 2 3 <br>
 4 0 6 <br>
 7 8 5 <br>
